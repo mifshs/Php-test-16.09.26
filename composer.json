@@ -1,0 +1,9 @@
+{
+    "name": "unity/php-oop",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
