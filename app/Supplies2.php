@@ -1,8 +1,12 @@
 <?php
+
 namespace App;
 
-class Supplies
+abstract class Supplies2
 {
+
+    abstract public function countCost($num);
+
     private string $name;
     private int $price;
     private int $id;
